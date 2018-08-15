@@ -5,7 +5,7 @@ import { Observable } from "rxjs";
 import { Photo } from "../photo/photo";
 
 @Injectable({ providedIn: 'root' })
-export class PhotoListResolver implements Resolve<Observable<Photo[]>>{
+export class PhotoListResolved implements Resolve<Observable<Photo[]>>{
 
     constructor(private service: PhotoService){
 
