@@ -5,7 +5,7 @@
       </p>
     <ol class="list-unstyled">
         <li *ngFor="let cols of rows" class="row">
-          <div *ngFor="let photo of cols" class="col-md-4 col-xs-4">
+          <div *ngFor="let photo of cols" class="col-md-4 col-xs-4" apDarkenOnHover brightness="75%">
             <app-card title={{photo.description}}>
               <ap-photo 
                 [url]="photo.url" 
