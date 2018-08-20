@@ -3,15 +3,15 @@
 Login page
 ***/
 /* logo page */
-.login {
+body {
   background-color: #a0b4c9 !important; }
 
-.login .logo {
+.logo {
   margin: 60px auto 20px auto;
   padding: 15px;
   text-align: center; }
 
-.login .content {
+.content {
   background-color: #fff;
   width: 360px;
   margin: 0 auto;
@@ -25,43 +25,43 @@ Login page
   -o-border-radius: 7px;
   border-radius: 7px; }
 
-.login .content h3 {
+.content h3 {
   color: #000; }
 
-.login .content h4 {
+.content h4 {
   color: #555; }
 
-.login .content p {
+.content p {
   color: #222; }
 
-.login .content .login-form,
-.login .content .forget-form {
+.content .login-form,
+.content .forget-form {
   padding: 0px;
   margin: 0px; }
 
-.login .content .input-icon {
+.content .input-icon {
   border-left: 2px solid #44B6AE !important; }
 
-.login .content .input-icon {
+.content .input-icon {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px; }
-  .login .content .input-icon .form-control {
+  .content .input-icon .form-control {
     border-left: 0; }
 
-.login .content .forget-form {
+.content .forget-form {
   display: none; }
 
-.login .content .register-form {
+.content .register-form {
   display: none; }
 
-.login .content .form-title {
+.content .form-title {
   font-weight: 300;
   margin-bottom: 25px; }
 
-.login .content .form-actions {
+.content .form-actions {
   background-color: #fff;
   clear: both;
   border: 0px;
@@ -70,43 +70,43 @@ Login page
   margin-left: -30px;
   margin-right: -30px; }
 
-.login .content .forget-form .form-actions {
+.content .forget-form .form-actions {
   border: 0;
   margin-bottom: 0;
   padding-bottom: 20px; }
 
-.login .content .register-form .form-actions {
+.content .register-form .form-actions {
   border: 0;
   margin-bottom: 0;
   padding-bottom: 0px; }
 
-.login .content .form-actions .rememberme {
+.content .form-actions .rememberme {
   margin-top: 8px;
   display: inline-block; }
 
-.login .content .form-actions .btn {
+.content .form-actions .btn {
   margin-top: 1px; }
 
-.login .content .forget-password {
+.content .forget-password {
   margin-top: 25px; }
 
-.login .content .create-account {
+.content .create-account {
   border-top: 1px dotted #eee;
   padding-top: 10px;
   margin-top: 15px; }
 
-.login .content .create-account a {
+.content .create-account a {
   display: inline-block;
   margin-top: 5px; }
 
 /* select2 dropdowns */
-.login .content .select2-container {
+.content .select2-container {
   border-left: 2px solid #44B6AE !important; }
 
-.login .content .select2-container .select2-choice {
+.content .select2-container .select2-choice {
   border-left: none !important; }
 
-.login .content .select2-container i {
+.content .select2-container i {
   display: inline-block;
   position: relative;
   color: #ccc;
@@ -118,17 +118,17 @@ Login page
   font-size: 16px;
   text-align: center; }
 
-.login .content .has-error .select2-container i {
+.content .has-error .select2-container i {
   color: #b94a48; }
 
-.login .content .select2-container a span {
+.content .select2-container a span {
   font-size: 13px; }
 
-.login .content .select2-container a span img {
+.content .select2-container a span img {
   margin-left: 4px; }
 
 /* footer copyright */
-.login .copyright {
+.copyright {
   text-align: center;
   margin: 0 auto;
   padding: 10px;
@@ -139,11 +139,11 @@ Login page
   /***
   Login page
   ***/
-  .login .logo {
+  .logo {
     margin-top: 10px; }
-  .login .content {
+  .content {
     width: 280px; }
-  .login .content h3 {
+  .content h3 {
     font-size: 22px; }
-  .login .checkbox {
+  .checkbox {
     font-size: 13px; } }
