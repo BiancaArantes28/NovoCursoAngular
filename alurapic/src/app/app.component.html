@@ -1,4 +1,28 @@
-<app-header>
-    <router-outlet></router-outlet>
-</app-header>
+<div class="page-wrapper" *ngIf="(user$ | async) as user; else login">
+    <div class="page-wrapper-row">
+        <div class="page-wrapper-top">
+            <div class="page-header">
+                <app-header></app-header>
+            </div>
+        </div>
+    </div>
+    <div class="page-wrapper-row full-height">
+        <div class="page-wrapper-middle">
+            <div class="page-container">
+                <div class="page-content-wrapper">
+                    <div class="page-content">
+                        <div class="container">
+                            <router-outlet></router-outlet>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+</div>
+<ng-template #login>
+    <div class="login">
+        <router-outlet></router-outlet>
+    </div>
+</ng-template>

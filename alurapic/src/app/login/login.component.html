@@ -1,4 +1,6 @@
 <!-- BEGIN LOGIN -->
+<div class="logo">
+    </div>
 <div class="content">
         <!-- BEGIN LOGIN FORM -->
         <form class="login-form" [formGroup]="loginForm" (submit)="login()">
@@ -12,20 +14,20 @@
                 <label class="control-label visible-ie8 visible-ie9">Username</label>
                 <div class="input-icon">
                     <i class="fa fa-user"></i>
-                    <input #userNameInput formControlName="userName" class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" /> </div>
+                    <input #userNameInput formControlName="userName" name="userName" class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" /> </div>
             </div>
             <div class="form-group">
                 <label class="control-label visible-ie8 visible-ie9">Password</label>
                 <div class="input-icon">
                     <i class="fa fa-lock"></i>
-                    <input formControlName="password" class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" /> </div>
+                    <input formControlName="password" name="password" class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" /> </div>
             </div>
             <div class="form-actions">
                 <label class="rememberme mt-checkbox mt-checkbox-outline">
                     <input type="checkbox" name="remember" value="1" /> Remember me
                     <span></span>
                 </label>
-                <button [disabled]="loginForm.invalid" type="submit" class="btn green pull-right"> Login </button>
+                <button type="submit" class="btn green pull-right"> Login </button>
             </div>
             <div class="login-options">
                 <h4>Or login with</h4>
