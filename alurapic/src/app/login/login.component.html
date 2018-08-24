@@ -1,6 +1,6 @@
 <!-- BEGIN LOGIN -->
 <div class="logo">
-    </div>
+</div>
 <div class="content">
         <!-- BEGIN LOGIN FORM -->
         <form class="login-form" [formGroup]="loginForm" (submit)="login()">
@@ -53,7 +53,7 @@
             </div>
             <div class="create-account">
                 <p> Don't have an account yet ?&nbsp;
-                    <a href="javascript:;" id="register-btn"> Create an account </a>
+                    <a [routerLink]="['signup']" id="register-btn"> Create an account </a>
                 </p>
             </div>
         </form>

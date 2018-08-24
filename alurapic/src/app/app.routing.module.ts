@@ -9,6 +9,7 @@ import { SignInComponent } from './home/signin/signin.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './core/auth/auth.guard';
 import { SignUpComponent } from './home/signup/signup.component';
+import { DataTableComponent } from './datatable/datatable.component';
 
 const routes: Routes = [
     {
@@ -28,6 +29,7 @@ const routes: Routes = [
         }
      },
     { path: 'p/add', component: PhotoFormComponent },
+    { path: 'datatable', component: DataTableComponent },
     { path: '**', component: NotFoundComponent },
 ];
 

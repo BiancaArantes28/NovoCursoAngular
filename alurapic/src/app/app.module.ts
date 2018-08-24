@@ -9,6 +9,7 @@ import { ContentModule } from './content/content/content.module';
 import { HomeModule } from './home/home.module';
 import { CoreModule } from './core/core.module';
 import { LoginModule } from './login/login.module';
+import { DataTableModule } from './datatable/datatable.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginModule } from './login/login.module';
       ErrorsModule,
       HomeModule,
       CoreModule,
-      LoginModule
+      LoginModule,
+      DataTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
